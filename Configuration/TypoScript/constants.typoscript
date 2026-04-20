@@ -1,0 +1,8 @@
+
+styles { 
+    templates { 
+        layoutRootPath = EXT:t3themeextend/Resources/Private/Layouts/ContentElements/ 
+        partialRootPath = EXT:t3themeextend/Resources/Private/Partials/ContentElements/ 
+        templateRootPath = EXT:t3themeextend/Resources/Private/Templates/ContentElements/ 
+    } 
+} 

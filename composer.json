@@ -1,0 +1,23 @@
+{
+   "name": "crayon/t3themeextend",
+   "type": "typo3-cms-extension",
+   "authors": [
+      {
+         "name": "T3Element",
+         "email": "info@t3element.com"
+      }
+   ],
+   "license": [
+      "GPL-2.0-or-later"
+   ],
+   "autoload": {
+      "psr-4": {
+         "Crayon\\T3themeextend\\": "Classes"
+      }
+   },
+   "extra": {
+      "typo3/cms": {
+         "extension-key": "t3themeextend"
+      }
+   }
+}

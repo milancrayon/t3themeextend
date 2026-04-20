@@ -1,0 +1,28 @@
+page = PAGE
+page {  
+    10 = FLUIDTEMPLATE
+    10 { 
+        templateRootPaths {
+            20 = EXT:t3themeextend/Resources/Private/Templates/Page/
+        }
+        partialRootPaths {
+           20 = EXT:t3themeextend/Resources/Private/Partials/Page/
+        }
+        layoutRootPaths {
+            20 = EXT:t3themeextend/Resources/Private/Layouts/Page/
+        }
+        dataProcessing {
+            10 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+            10 {
+                references.fieldName = media
+            }
+            40 = TYPO3\CMS\Frontend\DataProcessing\LanguageMenuProcessor
+            40 {
+                languages = auto
+                as = languagenavigation
+            }
+            60 = Crayon\T3theme\DataProcessing\ThemeProcessor
+        } 
+    } 
+} 
+@import 'EXT:t3themeextend/Configuration/TypoScript/Elements/'
