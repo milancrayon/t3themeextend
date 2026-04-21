@@ -2,13 +2,17 @@
 $EM_CONF['t3themeextend'] = [
     'title' => 'T3Theme Extend',
     'constraints' => [
-        'depends' => [],
+        'depends' => [
+            'typo3' => '13.4.0-14.4.99',
+            'container' => '^3.1.12',
+            't3themeextend' => '1.0.0'
+        ],
         'conflicts' => [],
         'suggests' => [],
     ],
     'autoload' => [
-        'psr-4' => [ 
-            "Crayon\\T3themeextend\\"=> "Classes",
+        'psr-4' => [
+            "Crayon\\T3themeextend\\" => "Classes",
         ],
     ],
     'category' => 'templates',
