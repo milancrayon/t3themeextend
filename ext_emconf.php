@@ -4,8 +4,7 @@ $EM_CONF['t3themeextend'] = [
     'constraints' => [
         'depends' => [
             'typo3' => '13.4.0-14.4.99',
-            'container' => '^3.1.12',
-            't3themeextend' => '1.0.0'
+            'container' => '^3.1.12'
         ],
         'conflicts' => [],
         'suggests' => [],
